@@ -32,3 +32,7 @@ class TestMyIP(unittest.TestCase):
     def test_local_ip_default(self):
         local_ip = my_ip.local_ip()
         self.assertIsNotNone(local_ip)
+
+    def test_local_mac_default(self):
+        local_mac = my_ip.local_mac()
+        self.assertIsNotNone(local_mac)
