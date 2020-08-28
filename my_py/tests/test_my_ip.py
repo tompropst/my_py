@@ -1,6 +1,6 @@
 import unittest
 
-import my_ip
+from my_py import my_ip
 
 
 class TestMyIP(unittest.TestCase):
